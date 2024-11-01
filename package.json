@@ -1,0 +1,28 @@
+{
+  "name": "purify-string",
+  "description": "Accurate and secure string manipulation library.",
+  "version": "1.0.3-beta.4",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "release": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "purify",
+    "string",
+    "purify-string"
+  ],
+  "author": "Asitha <asitha.pwc@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.8.2",
+    "typescript": "^5.6.3"
+  }
+}
